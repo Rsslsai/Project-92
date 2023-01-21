@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <title>2-player game</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+
+<body>
+<label id="player_1"> </label>
+ <span id="player_1_score"></span>
+<br>
+<label id="player_2"> </label> 
+<span id="player_2_score"></span>
+<div class="container">
+    <div id="update"></div>
+<center>
+    <h1 style="color:rgb(255, 255, 255)">The Math Quiz Game</h1>
+    <h2>Question Turn:</h2>
+    <span id="question_turn"></span>
+    <br>
+    <h2>Answer Turn:</h2>
+    <span id="answer_turn"></span>
+    <div id="output"></div>
+    <h3>Number 1</h3>
+    <br>
+    <input id="player1" class="form-control" placeholder="Enter number here">
+    <br>
+    <br>
+    <h3>Number 2</h3>
+    <br>
+    <input id="player2" class="form-control" placeholder="Enter number here">
+    <br>
+    <br>
+    <button onclick=send() class="btn btn-info Login">Send</button>
+</center>
+</div>
+<script src="game_page.js"></script>
+</body>
+</html>

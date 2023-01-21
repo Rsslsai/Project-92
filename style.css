@@ -1,0 +1,59 @@
+body {
+    background-image: url("Math.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#main {
+    background: linear-gradient(rgb(255, 255, 255) 10%, rgb(0, 136, 255) 70%, rgb(8, 12, 120) 100%);
+    float: right;
+    height: 100%;
+    text-align: center;
+    padding-top: 15%;
+}
+
+.login {
+    width: 17.5%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#title {
+    color: navy;
+    font-family: fantasy;
+}
+
+#Player_1 {
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#Player_2 {
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    background: linear-gradient(rgb(255, 255, 255) 10%, rgb(0, 136, 255) 70%, rgb(8, 12, 120) 100%);
+    width: fit-content;
+    font-size: 50px;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 10px navy;
+}
+
+#output {
+    background: white;
+    border-color: purple;
+    border-width: 10px;
+    border-style: ridge;
+    padding: 20px;
+}
+
+#player_1 , #player_2 , #player_1_score , #player_2_score {
+    font-size: 30px;
+}
+
+#question_turn , #answer_turn {
+    font-size: 30px;
+    font-weight: bold;
+}
